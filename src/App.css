@@ -22,3 +22,8 @@
 .chat-log {
   flex: 1;
 }
+
+.chat-message-input input {
+  font-size: 14px;
+  width: 100%;
+}

@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Username() {
+function Username(props) {
   return (
     <div className="chat-username">
-      <h4>Username</h4>
+      <h4>Username: {props.username}</h4>
     </div>
   );
 }

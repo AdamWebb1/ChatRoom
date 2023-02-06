@@ -1,9 +1,9 @@
 import React from 'react';
 
-function MessageInput() {
+function MessageInput(props) {
   return (
-    <div className="chat-input">
-      <h4>Message Input</h4>
+    <div className="chat-message-input">
+      <input type="text" name="message-input" id="message-input" value={props.messageInput} />
     </div>
   );
 }
