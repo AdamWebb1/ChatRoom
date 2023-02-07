@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="chat-container">
       <Username username={username}/>
-      <ChatLog chatLog={chatLog}/>
+      <ChatLog chatLog={chatLog} username={username/>
       <MessageInput messageInput={messageInput}/>
     </div>
   );
