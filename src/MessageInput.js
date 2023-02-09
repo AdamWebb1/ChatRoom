@@ -1,6 +1,7 @@
 import React from 'react';
 
 function MessageInput(props) {
+
   return (
     <div className="chat-message-input">
       <form onSubmit={props.onSubmit}>
@@ -8,7 +9,8 @@ function MessageInput(props) {
              name="message-input" 
              id="message-input" 
              onChange={props.onChange}
-             value={props.messageInput} />
+             value={props.messageInput}
+             placeholder="message..." />
       </form>
 
     </div>
